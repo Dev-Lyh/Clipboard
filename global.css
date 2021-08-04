@@ -20,6 +20,7 @@ html{
 
   --Dark-Gray: #4c545d;
   --Grayish-Blue: #9fabb2;
+  --Footer: #f5f6f8;
 
   font-size: 62.5%;
 }
@@ -31,7 +32,7 @@ h1{
   color: #4c545d;
 }
 h2{
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   color: #4c545d;
 }
 h3{
@@ -42,4 +43,31 @@ p{
   font-size: 1.4rem;
   margin-bottom: 4rem;
   color: #9fabb2;
+}
+.mg-top{
+  margin-top: 1rem;
+}
+button{
+  width: 15rem;
+  height: 4rem;
+  /* border: none; */
+  border-radius: 2rem;
+  margin: 0 .5rem;
+  color: white;
+  font-family: 'Bai Jamjuree', sans-serif;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: .4rem solid;
+}
+.ios{
+  border-color: var(--Sh-Strong-Cyan);
+  box-shadow: 0 0rem 1rem .5rem var(--Lg-Strong-Cyan);
+  background-color: var(--Strong-Cyan);
+}
+.Mac{
+  border-color: var(--Sh-Light-Blue);
+  box-shadow: 0 0rem 1rem .5rem var(--Lg-Light-Blue);
+  background-color: var(--Light-Blue);
 }
