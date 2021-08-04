@@ -1,0 +1,61 @@
+@media screen and (max-width: 900px){
+  .mac-part{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .mac-part img{
+    position:relative;
+    left: 0;
+    margin-bottom: 8rem;
+  }
+  .mac-topics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    align-items: center;
+  }
+  .items{
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    margin: auto ;
+    padding: 0;
+  }
+  .logos-ent{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .logos-ent img{
+    margin-bottom: 8rem ;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn button{
+    width: 90%;
+    margin-bottom: 2rem;
+    height: 5rem;
+    border-radius: 4rem;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:  4rem 0;
+    text-align: center;
+  }
+  footer .topic ul{
+    line-height: 5rem;
+  }
+  footer .topic i{
+    margin-top: 2rem;
+  }
+}
